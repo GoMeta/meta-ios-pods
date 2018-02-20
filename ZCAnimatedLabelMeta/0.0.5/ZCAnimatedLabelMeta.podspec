@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.author             = { "Chen Zhang" => "overboming@gmail.com" }
   s.platform     = :ios
   s.ios.deployment_target = "5.0"
-  s.source       = { :git => "https://github.com/gometa/ZCAnimatedLabel-Meta.git", :tag => "0.0.4" }
+  s.source       = { :git => "https://github.com/gometa/ZCAnimatedLabel-Meta.git", :tag => "#{s.version}" }
   s.source_files  = "ZCAnimatedLabel/ZCAnimatedLabel/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
   s.frameworks = "CoreText"
